@@ -1,0 +1,9 @@
+<h1 > Experiences:</h1>
+<ul>
+  <li *ngFor="let experience of experiences">
+    <h5>{{ experience.dateOfDeparture }} - {{ experience.endDate }}</h5>
+    <h4> {{ experience.post }}  -  {{ experience.companyName }}</h4>
+                                      <h6>{{ experience.nameProject }}</h6>
+                                      <p>{{ experience.descriptionProject }} </p><br />
+  </li>
+</ul>
